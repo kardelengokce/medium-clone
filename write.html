@@ -106,6 +106,14 @@ h1{
 .box2 img{
 border-radius: 50px;
 }
+button{
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+.accordions{
+  background-color:antiquewhite;
+}
 </style>
 </head>
 <body>
@@ -118,20 +126,12 @@ border-radius: 50px;
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarNavDropdown">
                   <ul class="navbar-nav ">
-                    <li class="nav-item active  ">
-                      <a class="nav-link" href="#"> Our story<span class="sr-only"></span></a>
-                    </li>
+                 
                     <li class="nav-item">
-                      <a class="nav-link" href="#">membership</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">write</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">sign in</a>
+                        <a class="nav-link" href="sign.html">sign in</a>
                       </li>
                     <li class="nav-item button m-auto" >
-                     <button >get started</button>
+                     <a href="sign.html"><button >Start writing</button></a>
                     </li>
                   </ul>
                 </div>
@@ -237,8 +237,8 @@ border-radius: 50px;
     <button>learn more</button>
 </div>
 </div>
-<div>
-    <h2>more about writing medium</h2>
+<div class="accordions">
+    <h2 class="d-flex justify-content-center">more about writing medium</h2>
     <div id="accordion">
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -294,10 +294,10 @@ border-radius: 50px;
       <p>Looking for help getting started?</p>
       <button>check out</button>
 </div>
-<div class="footer" height="200px" >
+<div class="footer" height="50px" >
     <div class="row">
         <div class="col-md-4 p-4">
-    <img src="img/logo2.png" alt="" height="80px" weight="100px">
+    <img src="img/logo2.png" alt="" height="50px" weight="100px">
 </div>
 <div class="col-md-4 p-5">
     <p>Every idea needs a Medium</p>

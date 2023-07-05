@@ -1,5 +1,5 @@
 """
-WSGI config for mediumblog project.
+WSGI config for medium1 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mediumblog.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'medium1.settings')
 
 application = get_wsgi_application()
